@@ -1,0 +1,19 @@
+*{box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,p{margin:0;}
+.black-nav{
+  padding:12px 6px;
+  background:black;
+}
+
+.black-nav > *{color:#fff;text-align:left;}
+.list{padding:12px 20px;text-align: left;border-bottom:1px solid #e0e0e0;}
+.list > h4{margin-bottom:6px;}
+.list > h4 + p{font-size:14px;}
+.list .wrap{display:flex;align-items:center;gap:4px;}
+/* 모달창 */
+.modal{
+  margin-top:20px;
+  padding:20px;
+  background:#eee;
+  text-align: left;
+}
